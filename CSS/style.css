@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-.containerheader {
+.container1 {
     background-color: grey;
-    height: 520px;
-    width: 520px;
+    width: 100%;
 }

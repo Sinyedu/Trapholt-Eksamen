@@ -38,12 +38,15 @@
     width: 300px;
      position: relative;
      bottom: 425px;
-     left: 920px; 
-    
+     left: 920px;     
     }
 
 .overlap {
     position: absolute;
     top: 600px; 
     left: 750px; 
+}
+.containeroplev {
+    display: flex;
+    justify-content: center;
 }

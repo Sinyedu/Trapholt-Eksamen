@@ -32,3 +32,18 @@
     width: 558px;
     height: 181px;
 }
+
+.roundpic 
+{  
+    width: 300px;
+     position: relative;
+     bottom: 425px;
+     left: 920px; 
+    
+    }
+
+.overlap {
+    position: absolute;
+    top: 600px; 
+    left: 750px; 
+}

@@ -1,9 +1,21 @@
 @import url(https://fonts.google.com/specimen/Inter+Tight);
 
 
+
+
 .container12{
      display: flex;
     background-color: #ECECEC;
     width: 100%;
-    height: 295px;
+    height: 145px;
 }
+.container11{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: #ECECEC;
+   width: 100%;
+   height: 50px;
+   font-size: large;
+   font-weight: 600;
+}
+

@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerheader {
+    background-color: grey;
+    height: 520px;
+    width: 520px;
+}

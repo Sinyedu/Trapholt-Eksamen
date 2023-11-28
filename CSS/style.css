@@ -13,8 +13,8 @@
    background-color: #ECECEC;
    width: 100%;
    height: 50px;
-   font-size: large;
-   font-weight: 400;
+   font-size:x-large;
+   font-weight: 500;
 }
 
 .containerarne 
@@ -23,7 +23,7 @@
     height: 759px;
 }
 .Mainarne {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 
@@ -37,13 +37,13 @@
 {  
       width: 300px;
      position: relative;
-     bottom: 425px;
+     bottom: 450px;
      left: 920px;     
     }
 
 .overlap {
     position: absolute;
-    top: 600px; 
+    top: 456px; 
     left: 750px; 
 }
 .containeroplev {

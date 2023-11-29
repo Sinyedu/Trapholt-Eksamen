@@ -1,2 +1,0 @@
-# Trapholt-Eksamen
- 

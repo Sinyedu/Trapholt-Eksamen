@@ -71,7 +71,7 @@
       width: 300px;
      position: relative;
      bottom: 450px;
-     left: 900px;     
+     left: 1000px;     
     }
 
 .overlap 
@@ -93,6 +93,7 @@
 
 .container3 
 {
+    position: relative;
     width: 33%;
     height: auto;
     padding: auto;
@@ -111,9 +112,10 @@
 .box2 img,
 .box3 img 
 {
-    width: 390px;
+    width: 95%;
     height: 390px;
     border: 1px solid #000;
+    position: relative;
 
 }
 

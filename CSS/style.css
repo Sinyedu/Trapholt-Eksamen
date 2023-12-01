@@ -3,24 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar
+
+.containerfull
 {
-
-}
-
-
-
-.container
-{
+    box-sizing: border-box;
     font-family: 'Inter Tight', sans-serif;
-    padding-left: 76px;
-    padding-right: 76px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 
 .h1
 {
-    font-size: 50;
+    font-size: 50px;
 }
 
 .container1
@@ -160,6 +156,7 @@
 .claybox
 {
     display: flex;
+    width: 100%;
 }
 
 .billeder1
@@ -175,7 +172,10 @@
 
 
 .tongue
-{
+{   
+    right: 971px;
+    padding-top: 750px;
+    position: relative;
     display: flex;
     align-self: flex-end;
 }

@@ -169,13 +169,23 @@
 
 .billeder2
 {
-    flex: 1;
+    position: relative;
+    display: flex;
+    left: 410px;
+    top: 200px;
+}
+
+.billeder3 
+{
+    position: relative;
+    display: flex;
+    left: 350px;
 }
 
 
 .tongue
 {   
-    right: 971px;
+    right: 1300px;
     padding-top: 750px;
     position: relative;
     display: flex;

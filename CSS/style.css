@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+
+.img 
+{
+    max-width: 100%;
+}
+
 .containerfull
 {
     box-sizing: border-box;
-    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Inter Tight', 'Open Sans', sans-serif;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -61,24 +67,24 @@
 
 .brødtekst 
 {
-    font-weight: 250;
+    font-weight: 500rem;
     width: 558px;
     height: 181px;
 }
 
 .roundpic 
 {  
-      width: 300px;
-     position: relative;
-     bottom: 450px;
-     left: 1000px;     
+      width: 17vh;
+     position:relative;
+     bottom: 48vh;
+     left: 110vh;     
     }
 
 .overlap 
 {
     position: absolute;
-    top: 400px; 
-    left: 870px; 
+    top: 45vh; 
+    left: 92vh; 
 }
 .containeroplev
  {
@@ -113,7 +119,7 @@
 .box3 img 
 {
     width: 95%;
-    height: 390px;
+    height: 43vh;
     border: 1px solid #000;
     position: relative;
 
@@ -127,7 +133,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    height: 150px;
+    height: 17vh;
     width: 90%;
     background-color: #ecececf3;
     display: flex;
@@ -171,22 +177,23 @@
 {
     position: relative;
     display: flex;
-    left: 410px;
-    top: 200px;
+    left: 25vh;
+    top: 25vh;
 }
 
 .billeder3 
 {
     position: relative;
     display: flex;
-    left: 350px;
+    left: 20vh;
+    bottom: 10vh;
 }
 
 
 .tongue
 {   
-    right: 1300px;
-    padding-top: 750px;
+    right: 162vh;
+    padding-top: 82vh;
     position: relative;
     display: flex;
     align-self: flex-end;

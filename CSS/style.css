@@ -189,6 +189,28 @@
     bottom: 10vh;
 }
 
+ 
+ .container5 {
+    overflow: hidden; /* Clear any floats within the container */
+}
+
+.billeder4 {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Adjust the margin to create space between image and text */
+}
+
+@media screen and (max-width: 768px) {
+    .billeder4
+{
+        float: none; /* Reset float on smaller screens */
+        margin-left: 0; /* Remove margin on smaller screens */
+        margin-bottom: 10px; /* Add some space below the image on smaller screens */
+        display: block; /* Ensure the image takes full width on smaller screens */
+}
+}
+
+
+
 
 .tongue
 {   

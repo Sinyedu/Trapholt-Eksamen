@@ -13,7 +13,7 @@
 .containerfull
 {
     box-sizing: border-box;
-    font-family: 'Inter Tight', 'Open Sans', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -192,7 +192,7 @@
 
 .tongue
 {   
-    right: 162vh;
+    right: 16vh;
     padding-top: 82vh;
     position: relative;
     display: flex;

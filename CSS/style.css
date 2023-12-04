@@ -214,7 +214,9 @@
 
 .tongue
 {   
-    right: 16vh;
+    top: 10vh;
+    right: 200vh;
+    padding-bottom: 15vh;
     padding-top: 82vh;
     position: relative;
     display: flex;

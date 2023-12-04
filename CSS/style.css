@@ -83,7 +83,7 @@
 .overlap 
 {
     position: absolute;
-    top: 45vh; 
+    top: 60vh; 
     left: 92vh; 
 }
 .containeroplev
@@ -191,21 +191,21 @@
 
  
  .container5 {
-    overflow: hidden; /* Clear any floats within the container */
+    overflow: hidden; 
 }
 
 .billeder4 {
-    float: right; /* Float the image to the right */
-    margin-left: 20px; /* Adjust the margin to create space between image and text */
+    float: right; 
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
     .billeder4
 {
-        float: none; /* Reset float on smaller screens */
-        margin-left: 0; /* Remove margin on smaller screens */
-        margin-bottom: 10px; /* Add some space below the image on smaller screens */
-        display: block; /* Ensure the image takes full width on smaller screens */
+        float: none; 
+        margin-left: 0;
+        margin-bottom: 10px; 
+        display: block;
 }
 }
 
@@ -221,6 +221,11 @@
     position: relative;
     display: flex;
     align-self: flex-end;
+}
+
+.container6
+{
+    text-align: center;
 }
 
 *{

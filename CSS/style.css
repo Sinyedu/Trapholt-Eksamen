@@ -94,14 +94,14 @@
       width: 17vh;
      position:relative;
      bottom: 48vh;
-     left: 110vh;     
+     left: 135vh;     
     }
 
 .overlap 
 {
     position: absolute;
     top: 60vh; 
-    left: 92vh; 
+    left: 110vh; 
 }
 .containeroplev
  {

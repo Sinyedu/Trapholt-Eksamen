@@ -240,10 +240,6 @@
     align-self: flex-end;
 }
 
-.container6
-{
-    text-align: start;
-}
 
 .img-container
 {
@@ -264,6 +260,19 @@
     vertical-align: top; 
       
 }
+
+.brødtekst2
+{
+    margin-left: 35px;
+    margin-right: 35px;
+    word-spacing: 1px;
+    line-height: 45px;
+}
+
+
+
+
+
 
 *{
     margin: 0; padding: 0;

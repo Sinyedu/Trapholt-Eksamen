@@ -225,7 +225,27 @@
 
 .container6
 {
+    text-align: start;
+}
+
+.img-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
     text-align: center;
+}
+
+.img-fluid3,
+.img-fluid2
+{
+    width: 45%; 
+    height: auto; 
+    max-width: 910px; 
+    margin: 10px 15px 20px 50px; 
+    display: inline-block;
+    vertical-align: top; 
+      
 }
 
 *{

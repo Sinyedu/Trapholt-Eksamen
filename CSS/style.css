@@ -45,6 +45,23 @@
    font-size:x-large;
    font-weight: 400;
 }
+
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar-brand
+{
+    margin-bottom: 10px;
+}
+
+
+
+
 .images1 
 {
     padding-left: 20px;

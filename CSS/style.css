@@ -345,12 +345,20 @@
     
 }
 
+
+.container8
+{
+    position: relative;
+    display: inline-block;
+}
+
+
 .text-overlay
 {
     z-index: 1;
     position: absolute;
     right: 40%;
-    top: 250%;
+    top: 23%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 55px;
@@ -363,7 +371,7 @@
     z-index: 1;
     position: absolute;
     left: 33%;
-    top: 260%;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;
@@ -377,7 +385,7 @@
     z-index: 1;
     position: absolute;
     left: 33%;
-    top: 270%;
+    top: 39%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;

@@ -349,7 +349,8 @@
 .container8
 {
     position: relative;
-    display: inline-block;
+    display: flex;
+    overflow: hidden;
 }
 
 
@@ -357,8 +358,8 @@
 {
     z-index: 1;
     position: absolute;
-    right: 40%;
-    top: 23%;
+    right: 38%;
+    top: 15%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 55px;
@@ -370,8 +371,8 @@
 {
     z-index: 1;
     position: absolute;
-    left: 33%;
-    top: 30%;
+    left: 35%;
+    top: 20%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;
@@ -384,8 +385,8 @@
 {
     z-index: 1;
     position: absolute;
-    left: 33%;
-    top: 39%;
+    left: 35%;
+    top: 28%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;
@@ -394,6 +395,14 @@
 }
 
 
+.image-right
+ {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    right: 15%;
+    padding-top: 10%;
+}
 
 
 

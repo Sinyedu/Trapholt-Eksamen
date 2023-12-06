@@ -100,7 +100,7 @@
 .overlap 
 {
     position: absolute;
-    top: 60vh; 
+    top: 70vh; 
     left: 110vh; 
 }
 .containeroplev
@@ -192,18 +192,17 @@
 
 .billeder2
 {
-    position: relative;
+    position: absolute;
     display: flex;
-    left: 25vh;
-    top: 25vh;
+    left: 50%;
+    top:250%;
 }
 
 .billeder3 
 {
-    position: relative;
+    position:absolute;
     display: flex;
-    left: 20vh;
-    bottom: 10vh;
+    left: 65%;
 }
 
  
@@ -232,7 +231,7 @@
 .tongue
 {   
     top: 30vh;
-    right: 200vh;
+    right: 50%;
     padding-bottom: 80vh;
     padding-top: 82vh;
     position: relative;
@@ -301,7 +300,6 @@
 {
     position: relative;
     right: 20vh;
-    bottom: 5vh;
 }
 
 .fs-2
@@ -325,19 +323,20 @@
 
 .billeder5
 {
-    position: relative;
-    bottom: 45vh;
-    left: 110vh;
+    position: absolute;
+    display: flex;
+    top: 100%;
+    right: 10%;
+
 }
 
-
-.billeder6
+.billeder6 
 {
-    position: relative;
-    bottom: 150vh;
-    left: 150vh;
-}
-
+    position:absolute;
+    display: flex;
+    left: 50%;
+    top: 130%;
+}   
 
 .tongue3
 {

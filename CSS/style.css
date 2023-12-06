@@ -100,8 +100,8 @@
 .overlap 
 {
     position: absolute;
-    top: 70vh; 
-    left: 110vh; 
+    top: 55vh; 
+    left: 115vh; 
 }
 .containeroplev
  {
@@ -180,6 +180,7 @@
 
 .claybox
 {
+    overflow: hidden;
     display: flex;
     width: 100%;
 }
@@ -195,13 +196,14 @@
     position: absolute;
     display: flex;
     left: 50%;
-    top:250%;
+    top:195%;
 }
 
 .billeder3 
 {
     position:absolute;
     display: flex;
+    top: 160%;
     left: 65%;
 }
 
@@ -231,7 +233,7 @@
 .tongue
 {   
     top: 30vh;
-    right: 50%;
+    right: 40%;
     padding-bottom: 80vh;
     padding-top: 82vh;
     position: relative;
@@ -325,8 +327,8 @@
 {
     position: absolute;
     display: flex;
-    top: 100%;
-    right: 10%;
+    top: 55%;
+    right: 20%;
 
 }
 
@@ -335,7 +337,7 @@
     position:absolute;
     display: flex;
     left: 50%;
-    top: 130%;
+    top: 100%;
 }   
 
 .tongue3

@@ -406,10 +406,68 @@
 
 
 
+.container9
+{
+    width: 100%;
+    background-color: #060063;
+}
+
+.TMRS
+{
+    font-size: 23px;
+    padding-bottom: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+.TMRS2
+{
+    font-size: 23px;
+    padding-bottom: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+.TMRS3
+{
+    font-size: 23px;
+    padding-bottom: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+
+.TM
+{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.RS 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 
-
+.tal 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
 *{
     margin: 0; padding: 0;
     border: 0; outline: 0;

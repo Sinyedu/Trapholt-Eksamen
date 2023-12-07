@@ -435,8 +435,8 @@
 {
     z-index: 1;
     position: absolute;
-    right: 38%;
-    top: 15%;
+    right: 32%;
+    top: 12%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 55px;
@@ -449,7 +449,7 @@
     z-index: 1;
     position: absolute;
     left: 35%;
-    top: 20%;
+    top: 22%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;
@@ -463,7 +463,7 @@
     z-index: 1;
     position: absolute;
     left: 35%;
-    top: 28%;
+    top: 36%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 35px;

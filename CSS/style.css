@@ -151,15 +151,15 @@
 {  
       width: 17vh;
      position:relative;
-     bottom: 48vh;
-     left: 130vh;     
+     bottom: 70%;
+     left: 70%;     
     }
 
 .overlap 
 {
-    position: absolute;
-    top: 55vh; 
-    left: 115vh; 
+    position: relative;
+    bottom: 110%;
+    left: 15%;  
 }
 .containeroplev
  {
@@ -252,18 +252,18 @@
 
 .billeder2
 {
-    position: absolute;
+    position: relative;
     display: flex;
-    left: 50%;
-    top:195%;
+    bottom: 50%;
+    padding-top: 22%;
 }
 
 .billeder3 
 {
-    position:absolute;
+    position:relative;
     display: flex;
-    top: 160%;
-    left: 65%;
+    top: 155%;
+    right: 10%;
 }
 
  
@@ -292,7 +292,7 @@
 .tongue
 {   
     top: 30vh;
-    right: 50%;
+    right: 130%;
     padding-bottom: 80vh;
     padding-top: 82vh;
     position: relative;
@@ -390,6 +390,10 @@
     margin-top: 5px;
 }
 
+.claybox2
+{
+    position: relative;
+}
 
 
 
@@ -397,8 +401,9 @@
 {
     position: absolute;
     display: flex;
-    top: 55%;
-    right: 20%;
+    top: -20%;
+    left: 62%;
+    z-index: 1;
 
 }
 
@@ -406,8 +411,9 @@
 {
     position:absolute;
     display: flex;
-    left: 50%;
-    top: 100%;
+    top: 35%;
+    left: 53%;
+    z-index: 2;
 }   
 
 .tongue3
@@ -677,6 +683,13 @@ height: 100%;
     padding: 10px;
   }
 
+
+.bypass-margins 
+{
+    position: relative;
+    left: -15px; 
+    right: -15px; 
+}
 
 
 

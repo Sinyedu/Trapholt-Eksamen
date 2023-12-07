@@ -250,6 +250,12 @@
 }
 
 
+
+.container6
+{
+    overflow: hidden;
+}
+
 .img-container
 {
     display: flex;
@@ -280,13 +286,17 @@
 }
 
 
-.containerimg {
+.containerimg 
+{
     display: flex;
-    justify-content: space-around;
 }
 
-.img-wrapper {
+.img-wrapper 
+{
     text-align: center;
+    width: 900px;
+    height: 500px;
+    padding-right: 50px;
 }
 
 .img-fluid3,

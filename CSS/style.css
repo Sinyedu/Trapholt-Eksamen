@@ -7,6 +7,57 @@
 }
 
 
+.circles
+{
+    display: flex;
+    position: absolute;
+    left: 80%;
+}
+
+.circles2
+{
+    padding-top: 55px;
+    padding-right: 15px;
+}
+
+
+.circles3
+{
+    padding-top: 55px;
+    padding-right: 20px;
+}
+
+
+.circles4
+{
+    padding-top: 55px;
+    padding-right: 20px;
+}
+
+
+.circles5
+{
+    padding-top: 55px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .img 
 {
     max-width: 100%;
@@ -573,7 +624,10 @@
 
 
 
-
+.heroimage
+{
+    width: 100%;
+}
 
 
 

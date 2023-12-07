@@ -699,6 +699,12 @@ height: 100%;
 }
 
 
+.headliner
+{
+    font-weight: bolder;
+    letter-spacing: 0.8rem;
+}
+
 .tider
 {
     line-height: 2.5rem;
@@ -736,10 +742,61 @@ height: 100%;
 
 
 
+.priser
+{
+    letter-spacing: 3px;
+    max-width: 500px;
+    position: absolute;
+    display: flex;
+    top: 145%;
+    left: 46%;
+}
+
+.priser2
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 350px;
+    position: absolute;
+    display: flex;
+    top: 150%;
+    left: 42%;
+}
 
 
+.priser3
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 450px;
+    position: absolute;
+    display: flex;
+    top: 164%;
+    left: 42%;
+}
 
 
+.priser4
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 700px;
+    position: absolute;
+    display: flex;
+    top: 175%;
+    left: 36%;
+}
+
+.priser5
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 700px;
+    position: absolute;
+    display: flex;
+    top: 180%;
+    left: 36%;
+}
 
 
 

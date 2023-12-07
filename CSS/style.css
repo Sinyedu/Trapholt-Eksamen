@@ -709,7 +709,7 @@ height: 100%;
 {
     line-height: 2.5rem;
     max-width: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .tider2
@@ -717,14 +717,13 @@ height: 100%;
     font-weight: bolder;
     line-height: 2.5rem;
     max-width: 130px;
-    padding-bottom: 10px;
 }
 
 .tider3
 {
     line-height: 3rem;
     max-width: 240px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .tider4
@@ -741,14 +740,22 @@ height: 100%;
 }
 
 
+.mainpriser
+{
+    position: absolute;
+    left: 45%;
+    top: 140%;
+
+
+}
+
+
 
 .priser
 {
     letter-spacing: 3px;
     max-width: 500px;
-    position: absolute;
     display: flex;
-    top: 145%;
     left: 46%;
 }
 
@@ -757,10 +764,8 @@ height: 100%;
     line-height: 3rem;
     letter-spacing: 3px;
     max-width: 350px;
-    position: absolute;
     display: flex;
-    top: 150%;
-    left: 42%;
+    left: 44%;
 }
 
 
@@ -769,22 +774,18 @@ height: 100%;
     line-height: 3rem;
     letter-spacing: 3px;
     max-width: 450px;
-    position: absolute;
     display: flex;
-    top: 164%;
     left: 42%;
 }
 
 
 .priser4
 {
-    line-height: 3rem;
+    line-height: 4rem;
     letter-spacing: 3px;
-    max-width: 700px;
-    position: absolute;
+    max-width: 250px;
     display: flex;
-    top: 175%;
-    left: 36%;
+    left: 47%;
 }
 
 .priser5
@@ -792,11 +793,61 @@ height: 100%;
     line-height: 3rem;
     letter-spacing: 3px;
     max-width: 700px;
-    position: absolute;
     display: flex;
-    top: 180%;
     left: 36%;
 }
+
+.priser6
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 700px;
+    display: flex;
+    left: 42%;
+}
+
+.mainadresse
+{
+    position: absolute;
+    left: 45%;
+    top: 191%;
+}
+
+
+
+.adresse
+{
+    letter-spacing: 3px;
+    display: flex;
+}
+
+.adresse2
+{
+    letter-spacing: 3px;
+    display: flex;
+    max-width: 190px;
+}
+
+.adresse3
+{
+    letter-spacing: 2px;
+    display: flex;
+    max-width: 250px;
+}
+.adresse4
+{
+    letter-spacing: 1px;
+    display: flex;
+    max-width: 250px;
+}
+
+.adresse5
+{
+    letter-spacing: 3px;
+    display: flex;
+    max-width: 500px;
+}
+
 
 
 

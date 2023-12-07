@@ -312,6 +312,7 @@
 
 .container7
 {
+    overflow: hidden;
     background-color: #060063;
     width: 100%;
 }
@@ -428,6 +429,9 @@
 
 .container9
 {
+    overflow: hidden;
+    position: relative;
+    height: auto;
     width: 100%;
     background-color: #060063;
 }
@@ -436,9 +440,9 @@
 {
     font-size: 23px;
     padding-bottom: 25px;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: justify;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
+    justify-content:left;
     word-spacing: 10px;
     line-height: 30px;
 }
@@ -447,8 +451,8 @@
 {
     font-size: 23px;
     padding-bottom: 25px;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
     word-spacing: 10px;
     line-height: 30px;
 }
@@ -456,27 +460,27 @@
 .TMRS3
 {
     font-size: 23px;
-    padding-bottom: 25px;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: justify;
+    padding-bottom: 500px;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
     word-spacing: 10px;
     line-height: 30px;
+
 }
 
 
 .TM
 {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
     text-align: center;
 }
 
 
 .RS 
 {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
     text-align: center;
 }
 
@@ -484,10 +488,90 @@
 
 .tal 
 {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0px 0px 0px 75px;
     text-align: center;
 }
+
+
+
+.billeder7
+ {
+    display: flex;
+    position:absolute;
+    left: 70%;
+    bottom: 60%;
+ }
+.billeder8 
+{
+    display: flex;
+    position: absolute;
+    left: 55%;
+    bottom: 65%;
+   
+}
+
+.billeder9 
+{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    left: 64%;
+    bottom: 57%;
+}
+
+.billeder10 
+{
+   display: flex;
+   position: absolute;
+   left: 45%;
+   top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0; padding: 0;
     border: 0; outline: 0;

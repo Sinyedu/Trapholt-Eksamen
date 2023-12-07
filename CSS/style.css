@@ -530,6 +530,49 @@
 
 
 
+.container10 {
+    position: relative;
+}
+
+.billeder11 {
+    position: relative;
+    display: inline-block;
+}
+
+.RM
+{
+
+    text-align: center;
+    font-size: 3rem  !important;
+    color: #707070;
+    font-weight: bold;
+}
+
+.underline-text 
+{
+    font-size: 2rem !important;
+    color: #707070; 
+    font-weight: normal; 
+    margin-top: 10%; 
+}
+
+
+
+.overlay-text2 
+{
+    width: auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: #707070;
+    opacity: 90%;
+}
+
+
+
 
 
 

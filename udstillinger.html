@@ -103,6 +103,8 @@
                 </div>
         </div>
 
+    <div id="targetSection">
+            <!-- Content of the target section -->
             <div class="container8">
                 <img src="images/FOTO-s.-67-scaled.png" class="img-fluid" alt="...">
                     <div class="text-overlay">
@@ -117,7 +119,7 @@
 
                     <img src="images/Mask Group 13.png" class="img-fluid image-right" alt="">
            </div>   
-
+    </div>
 
                     <div class="container9">
                                 <div class="thingsmatter">
@@ -271,5 +273,14 @@
 
 
         </div>
+
+        <script>
+            function scrollToTarget() {
+                var targetElement = document.getElementById("targetSection");
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        </script>
         </body>
 </html>

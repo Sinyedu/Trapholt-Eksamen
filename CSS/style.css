@@ -273,8 +273,18 @@
     overflow: hidden; 
 }
 
+
+.headliner2
+{
+    padding-bottom: 15px;
+}
+
+
+
+
 .billeder4 
 {
+    margin-top: -60px;
     margin-bottom: 20px;
     float: right; 
     margin-left: 20px;
@@ -324,7 +334,6 @@
     width: 45%; 
     height: auto; 
     max-width: 910px; 
-    margin: 10px 15px 20px 50px; 
     display: inline-block;
     vertical-align: top; 
       
@@ -332,11 +341,16 @@
 
 .brødtekst2
 {
-    margin-left: 35px;
+    margin-top: -60px;
+    padding-bottom: 65px;
     margin-right: 35px;
     word-spacing: 1px;
     line-height: 45px;
+    text-align: left;
 }
+
+
+
 
 
 .fs-5
@@ -346,7 +360,9 @@
 }
 
 .containerimg 
-{
+{ 
+    padding-top: 70px;
+    gap: 50px;
     text-align: center;
     display: flex;
 }
@@ -356,12 +372,19 @@
     text-align: center;
     width: 900px;
     height: 500px;
-    padding-right: 50px;
 }
 
-.img-fluid3,
-.img-fluid2 {
-    width: 95vh;
+.img-fluid2
+{
+    left: 50px;
+    width: 1000vh;
+    max-width: 100%;
+}
+
+
+.img-fluid3 
+{
+    width: 1000vh;
     max-width: 100%;    
 }
 
@@ -622,6 +645,7 @@
 
 .underline-text 
 {
+    padding-left: 10px;
     font-size: 2rem !important;
     color: #707070; 
     font-weight: normal; 
@@ -707,13 +731,13 @@ height: 100%;
     right: -15px; 
 }
 
-
-
 .familie
 {
-    margin: 0;
-    padding: 0;
+    margin-top: -50px;
+    padding-bottom: 50px;
 }
+
+
 
 
 .headliner
@@ -725,7 +749,7 @@ height: 100%;
 .tider
 {
     line-height: 2.5rem;
-    max-width: 130px;
+    max-width: 150px;
     padding-bottom: 30px;
 }
 
@@ -739,7 +763,7 @@ height: 100%;
 .tider3
 {
     line-height: 3rem;
-    max-width: 240px;
+    max-width: 300px;
     padding-bottom: 30px;
 }
 
@@ -752,16 +776,20 @@ height: 100%;
 
 .tider5
 {
-    line-height: 2rem;
-    max-width: 160px;
+    line-height: 2.5rem;
+    max-width: 200px;
 }
+
+
+
+
 
 
 .mainpriser
 {
     position: absolute;
     left: 45%;
-    top: 165%;
+    top: 147%;
 
 
 }
@@ -778,7 +806,7 @@ height: 100%;
 
 .priser2
 {
-    line-height: 3rem;
+    line-height: 2.5rem;
     letter-spacing: 3px;
     max-width: 350px;
     display: flex;
@@ -788,9 +816,9 @@ height: 100%;
 
 .priser3
 {
-    line-height: 3rem;
+    line-height: 2.5rem;
     letter-spacing: 3px;
-    max-width: 450px;
+    max-width: 500px;
     display: flex;
     left: 42%;
 }
@@ -798,9 +826,9 @@ height: 100%;
 
 .priser4
 {
-    line-height: 4rem;
+    line-height: 2rem;
     letter-spacing: 3px;
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     left: 47%;
 }
@@ -827,7 +855,7 @@ height: 100%;
 {
     position: absolute;
     left: 45%;
-    top: 240%;
+    top: 215%;
 }
 
 
@@ -910,6 +938,11 @@ height: 100%;
 }
 
 
+.shopbillede
+{
+    width: 100%;
+    padding-bottom: 50px;
+}
 
 
 

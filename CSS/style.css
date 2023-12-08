@@ -94,9 +94,8 @@
 }
 .container2
 {
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
    background-color: #ECECEC;
    width: 100%;
    height: 50px;
@@ -307,7 +306,7 @@
 {   
     z-index: 2;
     padding-top: 50%;
-    right: 130%;
+    right: 140%;
     position: relative;
     display: flex;
     align-self: flex-end;
@@ -397,6 +396,7 @@
 
 .container7
 {
+    margin-top: 50px;
     overflow: hidden;
     background-color: #060063;
     width: 100%;
@@ -405,7 +405,7 @@
 .tongue2
 {
     position: relative;
-    right: 20vh;
+    right: 40vh;
 }
 
 .fs-2
@@ -453,6 +453,7 @@
 
 .tongue3
 {
+    left: 40vh;
     position: relative;
     transform: scaleX(-1);
     
@@ -632,6 +633,7 @@
 .billeder11 {
     position: relative;
     display: inline-block;
+    padding-bottom: 50px;
 }
 
 .RM
@@ -910,7 +912,7 @@ height: 100%;
 {
     position: absolute;
     display: flex;
-    top: 69%;
+    top: 75%;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }
@@ -921,7 +923,7 @@ height: 100%;
     padding-bottom: 50px;
     position: absolute;
     display: flex;
-    top: 74%;
+    top: 80%;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }
@@ -932,7 +934,7 @@ height: 100%;
     padding-bottom: 50px;
     position: absolute;
     display: flex;
-    top: 79%;
+    top: 86%;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }

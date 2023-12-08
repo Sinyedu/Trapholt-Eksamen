@@ -510,8 +510,8 @@
     font-size: 23px;
     padding-bottom: 25px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
-    justify-content:left;
+    margin: 0px 0px 0px 60px;
+    text-align: left;
     word-spacing: 10px;
     line-height: 30px;
 }
@@ -521,7 +521,8 @@
     font-size: 23px;
     padding-bottom: 25px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
+    text-align: left;
+    margin: 0px 0px 0px 60px;
     word-spacing: 10px;
     line-height: 30px;
 }
@@ -529,37 +530,38 @@
 .TMRS3
 {
     font-size: 23px;
-    padding-bottom: 500px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
+    text-align: left;
+    margin: 0px 0px 0px 60px;
     word-spacing: 10px;
     line-height: 30px;
-
+    padding-bottom: 300px;
 }
 
 
 .TM
 {
+    padding-top: 200px;
+    margin-left: 50px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
-    text-align: center;
+    text-align: left;
 }
 
 
 .RS 
 {
+    margin-left: 57px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
-    text-align: center;
+    text-align: left;
 }
 
 
 
 .tal 
 {
+    margin-left: 41px;
     max-width: 500px;
-    margin: 0px 0px 0px 75px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -906,10 +908,6 @@ height: 100%;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }
-
-
-
-
 
 
 

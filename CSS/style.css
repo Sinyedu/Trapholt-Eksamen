@@ -405,7 +405,7 @@
 .tongue2
 {
     position: relative;
-    right: 40vh;
+    right: 30%;
 }
 
 .fs-2
@@ -453,7 +453,7 @@
 
 .tongue3
 {
-    left: 40vh;
+    left: 30%;
     position: relative;
     transform: scaleX(-1);
     

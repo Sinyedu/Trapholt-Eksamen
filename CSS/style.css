@@ -761,29 +761,26 @@ height: 100%;
 
 .headliner
 {
-    font-weight: bolder;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.05rem;
 }
 
 .tider
 {
     line-height: 2.5rem;
-    max-width: 150px;
-    padding-bottom: 30px;
+    max-width: 100px;
 }
 
 .tider2
 {
     font-weight: bolder;
-    line-height: 2.5rem;
-    max-width: 130px;
+    line-height: 3rem;
+    max-width: 150px;
 }
 
 .tider3
 {
     line-height: 3rem;
-    max-width: 300px;
-    padding-bottom: 30px;
+    max-width: 416px;
 }
 
 .tider4
@@ -791,6 +788,7 @@ height: 100%;
     font-weight: bolder;
     line-height: 2rem;
     max-width: 200px;
+    padding-bottom: 50px;
 }
 
 .tider5
@@ -814,11 +812,8 @@ height: 100%;
 
 .mainpriser
 {
-    margin-bottom: 100px;
-    left: 45%;
-    top: 140%;
-
-
+    line-height: 3.5rem;
+    max-width: 2000px;
 }
 
 
@@ -834,7 +829,7 @@ height: 100%;
 {
     line-height: 2.5rem;
     letter-spacing: 3px;
-    max-width: 350px;
+    max-width: 500px;
     left: 44%;
 }
 
@@ -843,16 +838,16 @@ height: 100%;
 {
     line-height: 2.5rem;
     letter-spacing: 3px;
-    max-width: 500px;
+    max-width: 180px;
     left: 42%;
 }
 
 
 .priser4
 {
-    line-height: 2rem;
+    line-height: 3rem;
     letter-spacing: 3px;
-    max-width: 300px;
+    max-width: 500px;
     left: 47%;
 }
 
@@ -860,7 +855,7 @@ height: 100%;
 {
     line-height: 3rem;
     letter-spacing: 3px;
-    max-width: 700px;
+    max-width: 300px;
     left: 36%;
 }
 
@@ -872,10 +867,19 @@ height: 100%;
     left: 42%;
 }
 
+
+.priser7
+{
+    line-height: 3rem;
+    letter-spacing: 3px;
+    max-width: 800px;
+}
+
 .mainadresse
 {
-    left: 45%;
-    top: 190%;
+   max-width: 330px;
+   line-height: 3rem;
+   letter-spacing: 3px;
 }
 
 
@@ -887,19 +891,21 @@ height: 100%;
 
 .adresse2
 {
+    line-height: 3rem;
     letter-spacing: 3px;
-    max-width: 190px;
+    max-width: 200px;
 }
 
 .adresse3
 {
+    text-decoration: underline;
     letter-spacing: 2px;
-    max-width: 250px;
+    max-width: 230px;
 }
 .adresse4
 {
     letter-spacing: 1px;
-    max-width: 250px;
+    max-width: 350px;
 }
 
 .adresse5
@@ -981,6 +987,7 @@ height: 100%;
 
 .btn-success
 {
+    letter-spacing: .5rem;
     font-size: 4rem;
     font-weight: bold;
     display: flex;

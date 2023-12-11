@@ -699,6 +699,8 @@
 
 .bluebox
 {
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 150px;
     width: 350px;
     background-color: #060063;
@@ -720,6 +722,11 @@ height: 100%;
     padding-top: 30px;
 }
 
+
+.kunst
+{
+    padding-bottom: 10px;
+}
 
 .product-container 
 {
@@ -955,11 +962,43 @@ height: 100%;
     padding-bottom: 50px;
 }
 
+.modal-header
+{
+    justify-content: center !important; 
+    color: #363636;
+}
+
+.modal-body
+{
+    gap: 15px;
+    display: grid;
+    justify-content: space-evenly !important;
+}
+
+
+.modal-title
+{
+    font-weight: bold;
+}
+
+
+.product-container
+{
+    padding-bottom: 50px;
+}
 
 
 
 
 
+.btn-success
+{
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
 
 
 

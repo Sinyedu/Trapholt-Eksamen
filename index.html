@@ -14,23 +14,21 @@
 </head>
 <body>
     <div class="modal fade" id="optionsModal" tabindex="-1" role="dialog" aria-labelledby="optionsModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="optionsModalLabel">Choose an Option</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Select one of the following options:</p>
-                    <button type="button" class="btn btn-primary" onclick="optionSelected('option1')">English</button>
-                    <button type="button" class="btn btn-primary" onclick="optionSelected('option2')">Danish</button>
-                    <button type="button" class="btn btn-primary" onclick="optionSelected('option3')">German</button>
-                </div>
+        <div class="modal-dialog modal modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="optionsModalLabel">Choose a language</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              </button>
             </div>
+            <div class="modal-body">
+              <button type="button" class="btn btn-success" onclick="optionSelected('option1')">ENGLISH</button>
+              <button type="button" class="btn btn-success" onclick="optionSelected('option2')">DANISH</button>
+              <button type="button" class="btn btn-success" onclick="optionSelected('option3')">GERMAN</button>
+            </div>
+          </div>
         </div>
-    </div>
+      </div> 
     
     <div class="containerfull">
 

@@ -23,6 +23,7 @@
 
 .circles2
 {
+    position: relative;
     padding-top: 55px;
     padding-right: 15px;
 }
@@ -30,6 +31,7 @@
 
 .circles3
 {
+    position: relative;
     padding-top: 55px;
     padding-right: 20px;
 }
@@ -37,6 +39,7 @@
 
 .circles4
 {
+    position: relative;
     padding-top: 55px;
     padding-right: 20px;
 }
@@ -44,6 +47,7 @@
 
 .circles5
 {
+    position: relative;
     padding-top: 55px;
     padding-right: 20px;
 }

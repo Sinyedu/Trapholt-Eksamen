@@ -255,26 +255,32 @@
 </footer>
 
 <script>
-    // Check if the modal should be displayed based on the cookie
+    
     if (!Cookies.get('modalShown')) {
-        // Display the modal when the page is loaded
+        
         $(document).ready(function(){
             $('#optionsModal').modal('show');
         });
 
-        // Handle the option selected
+       
         function optionSelected(option) {
-            // Perform actions based on the selected option
-            alert('You selected: ' + option);
+            
+            var message = 'You selected: ' + option;
 
-            // Set the cookie to indicate that the modal has been shown
+            
+            $('#selectedOptionMessage').text(message).show();
+
+        
+            setTimeout(function () {
+                $('#optionsModal').modal('hide');
+            }, 1000);
+
+            
             Cookies.set('modalShown', true);
 
-            // You can customize this function to perform different actions based on the selected option
-            // For example, redirect to a specific page or show different content on the main page
+        
         }
     }
 </script>
-
         </body>
 </html>

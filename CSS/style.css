@@ -180,7 +180,6 @@
 
 .container3 
 {
-    
     position: relative;
     width: 33%;
     height: auto;
@@ -233,6 +232,7 @@
 
 .container4 
 {
+    margin-bottom: 50px;
     background-color: #060063;
     width: 100%;
     height: 100%;
@@ -240,6 +240,7 @@
 
 .hovedskrifter 
 {
+    padding-top: 15px;
     color: white;
 }
 
@@ -252,6 +253,7 @@
 
 .billeder1
 {
+    margin-top: -50px;
     flex: 1;
 }
 
@@ -925,20 +927,14 @@ height: 100%;
 
 .kvium
 {
-    position: absolute;
-    display: flex;
-    top: 75%;
+    margin-top: -40px;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }
 
 .kjell
 {
-
-    padding-bottom: 50px;
-    position: absolute;
-    display: flex;
-    top: 80%;
+    margin-top: -33px;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }
@@ -946,10 +942,7 @@ height: 100%;
 
 .perm
 {
-    padding-bottom: 50px;
-    position: absolute;
-    display: flex;
-    top: 86%;
+    margin-top: -90px;
     padding-left: 35px;
     font-size: 2.5rem !important;
 }

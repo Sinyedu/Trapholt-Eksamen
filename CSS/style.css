@@ -72,6 +72,7 @@
 
 .containerfull
 {
+    position: relative;
     box-sizing: border-box;
     width: 100%;
     padding: 0;
@@ -988,6 +989,7 @@ height: 100%;
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 footer{
+    width: 100%;
     background-color: rgb(70, 70, 70);
 }
 .f-item-con{
